@@ -1,0 +1,43 @@
+:root {
+  --stats-color: #000000;
+  --link-color: #757575;
+  --label-color:#ffffff;
+  --title-color: #2a2a2a;
+  --tag-color:#f3f6f9;
+  --border-color:#d8e0ea;
+  --quntity-color:#97a2ae;
+  --th-color:#00bcd4;
+}
+
+.html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color:var(--label-color);
+  color: var(--title-color);
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
